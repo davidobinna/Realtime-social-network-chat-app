@@ -33,6 +33,7 @@
     $searchUsersResult = User::search($searchKeyword);
     $number_of_users = count($searchUsersResult);
     $dataExists = false;
+    $null = "checked";///updated
 ?>
 
 <!DOCTYPE html>
